@@ -13,8 +13,6 @@ and plays one card at a time from the top of this stack. However, it is more
 like a QUEUE, since as we shall see it, when a player wins cards, these are 
 placed at the bottom of this stack of cards.
 
-Should run shuffleCards.py before starting the game to ensure the cards are shuffled.
-
-The deck is stored in shuffledDeck.txt and is resistant to tampering since the file is validated by the game before the game starts.
+The deck is stored in shuffledDeck.txt and is resistant to invalid cards since the file is validated by the game before the game starts.
 
 Built using the Python language.
