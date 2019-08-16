@@ -1,18 +1,5 @@
 # War Game
 # Isaac Cheung
-'''
-The card game War is a card game that is played with a deck of 52 cards.
-The goal is to be the first player to win all 52 cards. It is played by two 
-players but can also be played with more.
-
-The deck, after being shuffled, is divided evenly between the players. When 
-there are two players each one receives 26 cards, dealt one at a time, face 
-down. So the cards and their order are unknown. Each player places their stack
-of cards face down. It may seem as a STACK as we know it, since the player takes
-and plays one card at a time from the top of this stack. However, it is more 
-like a QUEUE, since as we shall see it, when a player wins cards, these are 
-placed at the bottom of this stack of cards.
-'''
 
 import random
 from random import shuffle
@@ -326,5 +313,6 @@ def main():
         winner = 'Player2'
     
     print('The winner of this game is %s'%winner)
+    input('press any key to close')
     
 main()
